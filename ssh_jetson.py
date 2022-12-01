@@ -1,6 +1,8 @@
 import argparse
 import os
 
+# alias jetssh='python /data/jliu/Tools/ssh_jetson.py --device'
+
 parser = argparse.ArgumentParser(description="ssh corresponding jetson device.")
 
 parser.add_argument('--device', type=str, default='')
